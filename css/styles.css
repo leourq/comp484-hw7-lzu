@@ -1,0 +1,116 @@
+/* Color Palette
+#333333 - Charcoal
+#4F7CAC - Steel Blue
+#E5E7EB - Light Gray
+#FFFFFF - White
+*/
+
+/* Border Box Fix
+------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Global styles 
+------------------------------------*/
+
+body {
+    background: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+
+header {
+    background: #333333;
+    color: #FFFFFF;
+}
+
+header h1, 
+header h2 {
+    margin: 0;
+}
+
+footer {
+    background: #333333;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+.contact-info a {
+   padding: 10px;
+   display: inline-block;
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+.work { 
+    background: #E5E7EB;
+}
+
+/* Education
+------------------------------------*/
+
+.education { 
+    background: #4F7CAC;
+    color: #FFFFFF;
+}
